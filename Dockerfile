@@ -10,7 +10,7 @@ RUN sed -i 's/user  nginx/user  www-data/g' /etc/nginx/nginx.conf
 RUN \
   pear install mail \
   pear install Net_SMTP \
-  pear install Auth_SASL \
+  pear install Auth_SASL2 \
   pear install mail_mime
  # pear install Crypt_GPG && \
  # pear install Net_GeoIP
